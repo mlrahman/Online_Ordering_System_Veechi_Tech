@@ -165,9 +165,9 @@
 	}
 	
 	//DB Connection
-		$servername = "sql213.byethost.com";
-		$username = "b4_21751845";
-		$password = "veechiuvatesting";
+		$servername = "localhost";
+		$username = "root";
+		$password = "";
 		$database= "b4_21751845_online_restaurant";
 		try {
 			$conn = new PDO("mysql:host=$servername;dbname=$database", $username, $password);
